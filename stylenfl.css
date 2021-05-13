@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+html {
+  background-color: #fff;
+}
+body
+{
+margin: 0;
+}
+.groupsnfl
+{
+font-family: 'Mukta', sans-serif;
+font-size: 25px;
+font-weight: bold;
+}
+ul {
+list-style-type: none;
+}
+ul li a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.nflh
+{
+width: 100vw;
+height: 10vh;
+background: #121212;
+}
+.nflh h1
+{
+margin: 0;
+text-align: center;
+font-family: 'Mukta', sans-serif;
+font-size: 3em;
+text-transform: capitalize;
+color: #fff;
+display: flex;
+flex-direction: column;
+position: absolute;
+}
