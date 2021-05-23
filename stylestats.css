@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@font-face {
+  font-family: "futurapt";
+  src: url(FuturaPTLight.otf);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "futurapt";
+  src: url(FuturaPTHeavy.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "futurapt";
+  src: url(FuturaPTMedium.otf);
+  font-weight: normal;
+}
+
+body
+{
+margin: 0;
+}
+
+.topbar h1 a:visited
+{
+color: #fff;
+
+}
+.topbar h1
+{
+margin: 0;
+font-family: "futurapt";
+font-weight: normal;
+font-style: italic;
+color: #fff;
+background-image: linear-gradient(90deg, #121212, #000);
+font-size: 27px;
+}
+.topbar h1 a:hover
+{
+color: #000;
+background-color: #fff;
+
+}
+.topbar h1 span
+{
+position: absolute; right:10px;
+text-decoration: none;
+font-style: normal;
+}
+
+.topbar h1  a
+{
+  text-decoration: none;
+  padding: 0px 20px;
+  transition: 0.4s ease;
+}
+.headimage {
+  background-image:url(kobe.jpg);
+  width: 100vw;
+  height: 30vh;
+
+}
