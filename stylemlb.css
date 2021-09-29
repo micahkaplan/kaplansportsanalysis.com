@@ -21,40 +21,7 @@ body
 margin: 0;
 }
 
-.topbar h1 a:visited
-{
-color: #fff;
 
-}
-.topbar h1
-{
-margin: 0;
-font-family: "futurapt";
-font-weight: normal;
-font-style: italic;
-color: #fff;
-background-image: linear-gradient(90deg, #121212, #000);
-font-size: 27px;
-}
-.topbar h1 a:hover
-{
-color: #000;
-background-color: #fff;
-
-}
-.topbar h1 span
-{
-position: absolute; right:10px;
-text-decoration: none;
-font-style: normal;
-}
-
-.topbar h1  a
-{
-  text-decoration: none;
-  padding: 0px 20px;
-  transition: 0.4s ease;
-}
 .panel {
   background-size: cover;
   width: 80vw;
@@ -69,6 +36,7 @@ font-style: normal;
   font-family: "futurapt";
   font-weight: bold;
   color: #fff;
+  text-shadow: 1px 1px #000000;
 }
 .panel h2
 {
@@ -78,6 +46,8 @@ font-style: normal;
   color: #fff;
   max-width: 25vw;
   margin-bottom: 30px;
+  text-shadow: 1px 1px #000000;
+
 }
 .panel a
 {
@@ -91,14 +61,8 @@ font-style: normal;
   border-radius: 40px;
 }
 
-.bg-hitting
-{
-  background-image: url(mlbbg-01.png);
-  background-size: cover;
-
-
-}
 .bg-pitching
 {
-  background-image: url(pitchingbg.jpg);
+  background-image: url(soto.jpg);
+
 }
